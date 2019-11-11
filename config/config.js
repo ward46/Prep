@@ -11,7 +11,15 @@ var config = {
         production: {    
                      root: rootPath,    
                      app: {      name: 'UCCSS'    },    
-                      port: 80,  }
+                     port: 80,  
+       },
+       test: {
+              root: rootPath,
+              app: { name: "javapractice" },
+              port: 4000,
+              },
+              
+
          };
 
 module.exports = config[env];
