@@ -1,0 +1,26 @@
+{
+  "name": "prep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testprep.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "author": "Spencer",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "grunt": "^1.0.4",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-nodemon": "^0.5.4",
+    "grunt-env": "^1.0.1",
+    "jshint-stylish": "^2.2.1",
+    "morgan": "^1.9.1",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0"
+  }
+}
